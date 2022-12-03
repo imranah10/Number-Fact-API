@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number fact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-danger">
+    <div class="container mt-5">
+      <div class="bg-success mt-4 p-5 col-md-8 mx-auto text-white card">
+        <h1>&#x23; NUMBER FACT</h1>
+        <p>Enter a number and get a random fact about it.</p>
+        <input type="number" placeholder="Enter any number" id="numberInput" />
+        <!-- fact begins -->
+        <div id="fact">
+          <h1>Here is your Fact</h1>
+          <p id="factText"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="api.js"></script>
+  </body>
+</html>
